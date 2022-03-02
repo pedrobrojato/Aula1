@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		D251060F27C9170000BFAC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251060E27C9170000BFAC89 /* AppDelegate.swift */; };
 		D251061127C9170000BFAC89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251061027C9170000BFAC89 /* SceneDelegate.swift */; };
-		D251061327C9170000BFAC89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251061227C9170000BFAC89 /* ViewController.swift */; };
+		D251061327C9170000BFAC89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251061227C9170000BFAC89 /* LoginViewController.swift */; };
 		D251061627C9170000BFAC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251061427C9170000BFAC89 /* Main.storyboard */; };
 		D251061827C9170200BFAC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D251061727C9170200BFAC89 /* Assets.xcassets */; };
 		D251061B27C9170200BFAC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D251061927C9170200BFAC89 /* LaunchScreen.storyboard */; };
 		D251062627C9170300BFAC89 /* Aula1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251062527C9170300BFAC89 /* Aula1Tests.swift */; };
 		D251063027C9170300BFAC89 /* Aula1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251062F27C9170300BFAC89 /* Aula1UITests.swift */; };
 		D251063227C9170300BFAC89 /* Aula1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D251063127C9170300BFAC89 /* Aula1UITestsLaunchTests.swift */; };
+		D2A7403F27CE99EB00FF0E6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A7403E27CE99EB00FF0E6C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		D251060B27C9170000BFAC89 /* Aula1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aula1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251060E27C9170000BFAC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D251061027C9170000BFAC89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D251061227C9170000BFAC89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D251061227C9170000BFAC89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D251061527C9170000BFAC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D251061727C9170200BFAC89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D251061A27C9170200BFAC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D251062B27C9170300BFAC89 /* Aula1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aula1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D251062F27C9170300BFAC89 /* Aula1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula1UITests.swift; sourceTree = "<group>"; };
 		D251063127C9170300BFAC89 /* Aula1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2A7403E27CE99EB00FF0E6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				D251060E27C9170000BFAC89 /* AppDelegate.swift */,
 				D251061027C9170000BFAC89 /* SceneDelegate.swift */,
-				D251061227C9170000BFAC89 /* ViewController.swift */,
+				D251061227C9170000BFAC89 /* LoginViewController.swift */,
 				D251061427C9170000BFAC89 /* Main.storyboard */,
 				D251061727C9170200BFAC89 /* Assets.xcassets */,
 				D251061927C9170200BFAC89 /* LaunchScreen.storyboard */,
 				D251061C27C9170200BFAC89 /* Info.plist */,
+				D2A7403E27CE99EB00FF0E6C /* HomeViewController.swift */,
 			);
 			path = Aula1;
 			sourceTree = "<group>";
@@ -258,9 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D251061327C9170000BFAC89 /* ViewController.swift in Sources */,
+				D251061327C9170000BFAC89 /* LoginViewController.swift in Sources */,
 				D251060F27C9170000BFAC89 /* AppDelegate.swift in Sources */,
 				D251061127C9170000BFAC89 /* SceneDelegate.swift in Sources */,
+				D2A7403F27CE99EB00FF0E6C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +443,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Aula1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +471,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DX5JM8SFG9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Aula1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
