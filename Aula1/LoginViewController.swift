@@ -18,27 +18,27 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordField.isSecureTextEntry = true
-        print("Ola chupika")
     }
     
     
     @IBAction func didTapLogin(_ sender: Any) {
-        if emailField.text == "" {
-            
-            showAlert(text: "Digite seu email.")
-            
-        } else if passwordField.text == "" {
-            
-            showAlert(text: "Digite sua senha")
-        }
-        
-        
-        if emailField.text == "pedro" && passwordField.text == "pedro" {
-            goToHome()
-            
-        } else {
-            showAlert(text: "Email ou Senha incorretos")
-        }
+//        if emailField.text == "" {
+//
+//            showAlert(text: "Digite seu email.")
+//
+//        } else if passwordField.text == "" {
+//
+//            showAlert(text: "Digite sua senha")
+//        }
+//
+//
+//        if emailField.text == "pedro" && passwordField.text == "pedro" {
+//            goToHome()
+//
+//        } else {
+//            showAlert(text: "Email ou Senha incorretos")
+//        }
+        goToHome()
     }
 
     func goToHome() {
@@ -54,6 +54,10 @@ class LoginViewController: UIViewController {
         
         alert.addAction(okButton)
         present(alert, animated: true, completion: nil)
+    }
+    
+    deinit {
+        print("Minha \(self) foi tirada de memoria")
     }
 }
 
