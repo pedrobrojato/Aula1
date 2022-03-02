@@ -18,6 +18,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         passwordField.isSecureTextEntry = true
+        print("Ola chupika")
     }
     
     
