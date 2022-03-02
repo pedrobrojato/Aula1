@@ -15,6 +15,6 @@ class HomeViewController: UIViewController {
         
         view.backgroundColor = .red
         
-        print("ola eu sou a home")
+        print("ola eu sou a home topzera")
     }
 }
