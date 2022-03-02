@@ -14,5 +14,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         view.backgroundColor = .red
+        
+        print("ola eu sou a home")
     }
 }
