@@ -13,9 +13,9 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
-        
-        print("viewdidloadchamado")
+                print("viewdidloadchamado")
     }
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -46,3 +46,5 @@ class HomeViewController: UIViewController {
         print("Minha \(self) foi tirada de memoria")
     }
 }
+
+

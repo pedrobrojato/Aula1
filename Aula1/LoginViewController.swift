@@ -22,22 +22,22 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func didTapLogin(_ sender: Any) {
-//        if emailField.text == "" {
-//
-//            showAlert(text: "Digite seu email.")
-//
-//        } else if passwordField.text == "" {
-//
-//            showAlert(text: "Digite sua senha")
-//        }
-//
-//
-//        if emailField.text == "pedro" && passwordField.text == "pedro" {
-//            goToHome()
-//
-//        } else {
-//            showAlert(text: "Email ou Senha incorretos")
-//        }
+        if emailField.text == "" {
+
+            showAlert(text: "Digite seu email.")
+
+        } else if passwordField.text == "" {
+
+            showAlert(text: "Digite sua senha")
+        }
+
+
+        if emailField.text == "pedro" && passwordField.text == "pedro" {
+            goToHome()
+
+        } else {
+            showAlert(text: "Email ou Senha incorretos")
+        }
         goToHome()
     }
 
