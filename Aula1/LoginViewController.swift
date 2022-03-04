@@ -32,7 +32,7 @@ class LoginViewController: UIViewController {
         }
 
 
-        if emailField.text == "pedro" && passwordField.text == "pedro" {
+        if emailField.text == "pedro" && passwordField.text == "0000" {
             goToHome()
 
         } else {
